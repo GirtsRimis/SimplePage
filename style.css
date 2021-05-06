@@ -13,7 +13,7 @@ body {
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%; 
+    width: 100%;
 }
 
 .topnav a {
@@ -41,14 +41,14 @@ body {
 
 .topnav .icon {
     display: none;
-} 
+}
 
 .wrapper {
     margin: auto;
     width: 50%;
     padding: 1rem;
 
-    margin-top: 4rem;
+    margin-top: 3.6rem;
 }
 
 .header {
@@ -63,6 +63,12 @@ body {
     margin-top: 2rem;
 }
 
+h3.sub-header {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 .text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
@@ -70,7 +76,20 @@ body {
 
 .centered {
     background-color: #000;
-    padding: 2rem 3rem;
+    padding: 1rem 1rem;
+    margin-bottom: 4rem;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.centered-rounded {
+    border-radius: 50%;
+
+    background-color: #1781ea;
+    padding: 1rem 1rem;
     margin-bottom: 4rem;
 
     display: block;
@@ -108,6 +127,46 @@ body {
 .page-change li a:hover, ul li a:focus {
     background-color: #b0b0b0;
     color: rgb(51, 51, 51);
+}
+
+.hobbies ul li a {
+    display: block;
+    padding: 2rem;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.audio-player {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+#family {
+    font-size: 1.4rem;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#family td, #family th {
+    padding: 1rem;
+}
+
+#family tr:nth-child(even) {background-color: #595959;}
+
+#family th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    background-color: #1781ea;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
 }
 
 footer {
